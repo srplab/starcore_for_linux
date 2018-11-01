@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_linux v2.6.0
+## starcore_for_linux v3.0.0
 
 - RedHat,Federo,Ubuntu,etc
 - c/c++, lua, python2.7/3.4/3.5/3.6/3.7,java, ruby20/21/22/23/24/25
