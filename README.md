@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_linux v3.3.0
+## starcore_for_linux v3.4.0
 
 - RedHat,Federo,Ubuntu,etc
 - c/c++, lua, python2.7/3.4/3.5/3.6/3.7,java, ruby20/21/22/23/24/25
@@ -25,6 +25,12 @@ We recommend that developers write primary logic in a scripting language, and GU
 
 
 ## History of CLE
+
+### v3.4.0
+- fixed bug when initialize cle on macos, sometimes waiting too long.
+- support java 9 or above
+- released at 2019/06/02
+
 
 ### v3.3.0
 - fix bug of VS_QUERYRECORD memory corrupt for 64bit version
