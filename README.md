@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_linux v3.6.0
+## starcore_for_linux v3.7.0
 
 - RedHat,Federo,Ubuntu,etc
 - c/c++, lua, python2.7/3.4/3.5/3.6/3.7,java, ruby20/21/22/23/24/25
@@ -25,6 +25,12 @@ We recommend that developers write primary logic in a scripting language, and GU
 
 
 ## History of CLE
+
+### v3.7.0
+- Solve the bug that LuaIsFunctionDeined is not affected by InvalidRegLuaFunction
+- Solve the bug that python multithreading simultaneously calling SRP Dispatch may deadlock
+- Add the function DispatchCall/MainDispatchCall to assist the call of object function between multiple threads
+- released at 2019/10/19
 
 ### v3.6.0
 - Solve the bug of parapkg function GetValueStr
